@@ -13,7 +13,7 @@ const Navigation = () => {
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Login">
                 <Stack.Screen name="Login" component={LoginScreen} />
-                <Stack.Screen name="Register" component={RegisterScreen} />
+                <Stack.Screen name="Register" component={RegisterScreen}/>
                 <Stack.Screen name="Home" component={Home} />
                 <Stack.Screen name="Add" component={Add}
                     options={{ presentation: 'modal', title: 'Agregar productos' }} />
